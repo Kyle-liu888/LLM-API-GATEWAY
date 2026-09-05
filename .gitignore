@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Build artifacts
+file_version_info.txt
+
+# Virtual environments
+.venv
+
+# Environment variables (contains DB credentials)
+.env
+.env.*
+!.env.example
+*.log
+*.exe
+*.exe.old
+*.exe.new
+*.msi
+*.pem
+*.key
+*.pfx
+*.p12
+
+# IDE
+.idea/
+.vscode/
+.codemate/
+
+# CodeAgent / CodeGraph
+.cac/
+.codegraph/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
